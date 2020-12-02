@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Validate | NFPA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/validate.css">
+</head>
+
+
+<body>
+    <div id="main-menu" class="ui menu">
+    <div id="header-container" class="ui one column grid container">
+        <div class="column">
+            <a class="item" href="/">
+                <img src="/images/logo.png">
+            </a>
+            <div id="slogan" class="item">NFPA Zabaan Platform</div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="head-gray"></div>
+
+    <div class="ui one column grid container">
+        <div class="action-row">
+    <div class="ui grid">
+        <div class="eight wide column">
+            
+        </div>
+
+        
+        <div class="eight wide column ui right aligned">
+            <div id="code-dropdown" class="ui floating dropdown large red button right floated model-dropdown">
+                Code  <span class="text"></span>
+                <div class="menu">
+                    <div class="ui icon search input">
+                        <i class="search icon"></i>
+                        <input type="text" placeholder="Search tags...">
+                    </div>
+                    <div class="divider"></div>
+                    <div class="header">
+                        <i class="tags icon"></i>
+                        Tag Label
+                    </div>
+                    <div id="code-list" class="scrolling menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        <div class="ui one column panel">
+            <div id="validate-segment" class="ui segments">
+                <div class="ui segment">
+                    <div class="ui one column centered grid">
+    <div class="centered row lang-select-line">
+        <div class="ui dropdown">
+            EN<i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="item">Choice 1</div>
+                <div class="item">Choice 2</div>
+            </div>
+        </div>
+        <i class="exchange icon"></i>
+        <div class="ui dropdown current">
+            ES<i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="item">Choice 1</div>
+                <div class="item">Choice 2</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    <div id="source-block" class="ui grid">
+                        <div class="sixteen wide column">
+                            <textarea name="" id="source-text" rows="10"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div id="hint-segment" class="ui segment">
+                    <div id="edit-header" class="ui row grid hide">
+                        <div class="ui four wide column form right floated">
+                            <div id="hint-field" class="inline fields">
+                                <div class="field">
+                                    <i class="check icon"></i>
+                                </div>
+                                <div class="field">
+                                    <i class="close icon"></i>
+                                </div>
+                                <div class="field edit">
+                                    <b>Edit</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="submit-segment" class="ui one column">
+            <div class="ui segments">
+                <div class="ui segment grid">
+                    <div class="three wide column">
+                    </div>
+                    <div class="ten wide column centered row">
+                        <button id="submit-button" class="ui button red">Submit</button>
+                    </div>
+                    <div id="completed-info" class="three wide column centered row">
+                        <b id="validation-count"></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/validate.js"></script>
+
+</html>

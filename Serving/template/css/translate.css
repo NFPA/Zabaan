@@ -1,0 +1,25 @@
+.ui.grid > .column.panel .ui.secondary.segment {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  background-color: #CA182C;
+}
+#processed-text {
+  overflow-wrap: break-word;
+}
+#vocab-check-en {
+  margin-top: 1rem;
+}
+#vocab-check-es {
+  margin-top: 1rem;
+}
+#align {
+  margin-top: 1rem;
+}
+#align {
+  width: 100%;
+}
+#alignment-fig {
+  width: 80%;
+}

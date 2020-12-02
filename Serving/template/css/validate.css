@@ -1,0 +1,35 @@
+.ui.grid.validation-row {
+  margin-top: 0;
+}
+.ui.grid.validation-row #translation-column {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.ui.grid.validation-row #translation-column p {
+  margin: 0;
+}
+.ui.grid.validation-row #translation-column .input {
+  width: 100%;
+}
+.ui.form .inline.fields {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui.form .inline.fields #edit-button {
+  cursor: pointer;
+}
+#hint-field .field {
+  padding-right: 22px;
+}
+#hint-field .field.edit {
+  margin-left: -3px;
+  padding-right: 7px;
+}
+#submit-segment #completed-info {
+  display: flex;
+  align-items: center;
+}

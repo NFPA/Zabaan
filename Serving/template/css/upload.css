@@ -1,0 +1,21 @@
+#input-pair {
+  display: none;
+}
+#upload-block {
+  display: block;
+}
+#upload-block .column h1 {
+  margin: 0;
+  color: #676567;
+}
+#upload-block #upload-button {
+  margin: 1rem 0;
+}
+#upload-block #uploader {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: -1;
+  left: -1;
+  z-index: 0;
+}

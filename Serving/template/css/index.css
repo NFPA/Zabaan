@@ -1,0 +1,40 @@
+.head-gray {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.block-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.block-wrapper .block {
+  border-radius: 5px;
+  border: 1px solid #747374;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 1rem;
+  padding: 0 1rem 1rem 1rem;
+  box-sizing: border-box;
+}
+.block-wrapper .block img {
+  width: 100%;
+}
+.text {
+  padding: 1rem;
+}
+.text .grid.container > p {
+  padding-left: 0;
+}
+.text .grid.container > ul {
+  margin-top: -5px;
+}
+.ui.button > a {
+  color: #FFFFFF;
+}
+.ui.cards > .card {
+  margin: 0.875em 1em;
+  width: 25rem;
+}

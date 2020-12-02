@@ -1,0 +1,5 @@
+"NFPA y National Fire Protection Association son marcas registradas de la National Fire Protection Association, Quincy, Massachusetts 02169."
+"Copyright © 2011 National Fire Protection Association®. Todos los derechos reservados"
+"La presente edición de NFPA 1, Código de Incendios, fue preparada por el Comité Técnico del Código de Incendios. Fue emitida por el Consejo de Normas el 31 de mayo de 2011, con fecha de entrada en vigor el 20 de junio de 2011 y reemplaza a todas las ediciones anteriores."
+"Esta edición de NFPA 1 se aprobó como Norma Nacional de los Estados Unidos el 20 de junio de 2011."
+"El presente Código fue originalmente desarrollado como resultado de lo requerido por muchos de los miembros de la National Fire Protection Association respecto de la necesidad de contar con un documento que abarque todos los aspectos de protección contra incendios y su prevención que aplicaban los otros códigos y normas de la NFPA desarrollados. El personal de la NFPA inició esta tarea en el año 1971 según una directiva impartida por la Junta Directiva de la NFPA."

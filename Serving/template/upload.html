@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>upload | NFPA</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/upload.css">
+</head>
+
+
+<body>
+    <div id="main-menu" class="ui menu">
+    <div id="header-container" class="ui one column grid container">
+        <div class="column">
+            <a class="item" href="/">
+                <img src="/images/logo.png">
+            </a>
+            <div id="slogan" class="item">NFPA Zabaan Platform</div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="head-gray"></div>
+
+    <div class="ui one column grid container">
+        <div class="action-row">
+    <div class="ui grid">
+        <div class="eight wide column">
+            
+                <a href="/translate.html">
+                    <button class="ui basic large button page-button ">
+                        <i class="font icon"></i>Text
+                    </button>
+                </a>
+                <a href="/upload.html">
+                    <button class="ui basic large button page-button  current">
+                        <i class="file icon"></i>File
+                    </button>
+                </a>
+            
+        </div>
+
+        
+    </div>
+</div>
+
+
+        <div class="ui one column panel">
+            <div class="ui segments">
+                <div class="ui segment">
+                    <div class="ui one column centered grid">
+    <div class="centered row lang-select-line">
+        <div class="ui dropdown">
+            EN<i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="item">Choice 1</div>
+                <div class="item">Choice 2</div>
+            </div>
+        </div>
+        <i class="exchange icon"></i>
+        <div class="ui dropdown current">
+            ES<i class="dropdown icon"></i>
+            <div class="menu">
+                <div class="item">Choice 1</div>
+                <div class="item">Choice 2</div>
+            </div>
+        </div>
+    </div>
+</div>
+                    <div id="input-pair" class="ui grid">
+    <div class="eight wide column left-textarea-block">
+        <textarea name="" id="src-text" rows="10"></textarea>
+    </div>
+    <div class="eight wide column">
+        <textarea name="" id="target-text" rows="10"></textarea>
+    </div>
+</div>
+
+                </div>
+
+                <div id="upload-block" class="ui segment very padded">
+                    <div class="ui one column centered grid">
+                        <h1 class="ui header row">
+                            <div class="content">
+                                Choose a document
+                                <div class="sub header">
+                                    Upload a .doc, .docx, .odf, .pdf, .ppt, .pptx, .ps, .rtf, .txt, .xls, or .xlxs
+                                </div>
+                            </div>
+                        </h1>
+                        <div id="upload-button" class="ui red big button">Upload my file</div>
+                        <input type="file" accept=".txt" class="input-file" id="uploader" name="file" multiple />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="download-btn" class="ui button red hide">Download</button>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/upload.js"></script>
+
+</html>
