@@ -54,7 +54,7 @@ Once you start/stop the MongoDB docker image, for next time just start with cont
 docker start <container_name/id>
 ```
 
-4. Copy all the serving models into models folder. You can download the sample model from [here](https://nfpa-translation-models.s3.us-east-2.amazonaws.com/euro_attention.zip)
+4. Copy all the serving models into models folder. You can download the [EuroParl model](https://nfpa-translation-models.s3.us-east-2.amazonaws.com/euro_attention.zip) and [NFPA model.](https://nfpa-translation-models.s3.us-east-2.amazonaws.com/nfpa_attention.zip)
 
 ```python
 cp /home/ubuntu/demo/models/* /home/ubuntu/Zabaan/Serving/nfpa_models/
