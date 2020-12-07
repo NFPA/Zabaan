@@ -5,7 +5,7 @@
   <img src="logo/NFPA_logo.png" height="80" width="80" title="National Fire Protection Association">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="logo/WPI_Inst_Prim_FulClr.png" height="80" title="Worcester Polytechnic Institute">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   
-A prototype translation platform that uses an efficient hybrid approach of human-in-the-loop (HITL) and  Neural Machine Translation (NMT) techniques to suggest domain specific translations to NFPA authors. The system makes use of NFPA datasets like Code & Standards, Research and Outreach material. Developed in collaboration with WPI GQP Program, NFPA International group and Data Analytics team, primarily focused on English-Spanish language pair. The UI front end has options for you to get instant translations and edit incorrect ones suggested by the NMT machine.
+Zabaabn is a prototype translation platform that uses a hybrid approach of human-in-the-loop (HITL) and  Neural Machine Translation (NMT) techniques to suggest domain specific translations of fire, electrical, and life safety texts. Zabaan was extensively trained on NFPA datasets like Code & Standards, Research, and Public Education & Outreach material and currently focused on bilateral English (EN) and Spanish (ES) translations. Zabaan was developed by NFPA's Data Analytics team in collaboration NFPA's Internatinal Operations team with support from WPI's GQP Program. The platform come with a lightweigh UI front end has options to get instant translations and edit incorrect ones suggested by the NMT machine.
 
 <p align="left">
   <img src="logo/NFPA Zabaan gif.gif" height="360" width="826" title="Zabaan - Neural Machine Translation Platform">
@@ -105,7 +105,7 @@ python server.py --port 8500 --model_name euro_attention
 
 ## Results 
 
-BLEU Scores on NFPA Data
+BLEU Scores on NFPA Content, before and after domain adaption to NFPA data.
  
 |   | En-Es  | Es-En  |
 |---|---|---|
