@@ -1,11 +1,11 @@
-# Language Translation
-### Prototype Translation system using Neural Machine Translation (NMT) architectures
+# Language Translation using Zabaan
+### Zabaan (زبان) is an Urdu word which means *Dialect* (derived from 16th Century Greek *dialektos*); tongue; form of speech 
 
 <p align="left">
   <img src="logo/NFPA_logo.png" height="80" width="80" title="National Fire Protection Association">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="logo/WPI_Inst_Prim_FulClr.png" height="80" title="Worcester Polytechnic Institute">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   
-Zabaabn is a prototype translation platform that uses a hybrid approach of human-in-the-loop (HITL) and  Neural Machine Translation (NMT) techniques to suggest domain specific translations of fire, electrical, and life safety texts. Zabaan was extensively trained on NFPA datasets like Code & Standards, Research, and Public Education & Outreach material and currently focused on bilateral English (EN) and Spanish (ES) translations. Zabaan was developed by NFPA's Data Analytics team in collaboration NFPA's Internatinal Operations team with support from WPI's GQP Program. The platform come with a lightweigh UI front end has options to get instant translations and edit incorrect ones suggested by the NMT machine.
+Zabaan is a prototype translation platform that uses a hybrid approach of human-in-the-loop (HITL) and  Neural Machine Translation (NMT) techniques to suggest domain specific translations of fire, electrical, and life safety texts. Zabaan was extensively trained on NFPA datasets like Code & Standards, Research, and Public Education & Outreach material and currently focused on bilateral English (EN) and Spanish (ES) translations. Zabaan was developed by NFPA's Data Analytics team in collaboration NFPA's Internatinal Operations team with support from WPI's GQP Program. The platform come with a lightweigh UI front end has options to get instant translations and edit incorrect ones suggested by the NMT machine.
 
 <p align="left">
   <img src="logo/NFPA Zabaan gif.gif" height="360" width="826" title="Zabaan - Neural Machine Translation Platform">
@@ -35,7 +35,7 @@ source activate tensorflow_p36
 ```
 
 2. Install packages
-This installes the python packages for Tokenization, TFServing API 1.X, PyMongo
+This installs the python packages for Tokenization, TFServing API 1.X, PyMongo
 
 ```
 pip install -r requirements.txt
@@ -107,10 +107,10 @@ python server.py --port 8500 --model_name euro_attention
 
 BLEU Scores on NFPA Content, before and after domain adaption to NFPA data.
  
-|   | En-Es  | Es-En  |
-|---|---|---|
-|Before Domain Adaption   | 35.98  | 41.3  |
-|After Domain Adaption   | 65.89   | 73.25  |
+|   | En-Es  | Es-En  | No. of Sentences (Train/Dev/Test)
+|---|---|---|---|
+|Before Domain Adaption   | 35.98  | 41.3  | 1.7M / 1000 / 500
+|After Domain Adaption   | 65.89   | 73.25  | 93k / 1000 / 1000
 
 ## Acknowledgments
 
