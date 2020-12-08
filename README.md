@@ -1,5 +1,5 @@
 # Language Translation using Zabaan
-### Zabaan (زبان) is an Urdu word which means *Dialect* (derived from 16th Century Greek *dialektos*); tongue; form of speech 
+### Zabaan is an Urdu word which means *Dialect*, tongue, or form of speech 
 
 <p align="left">
   <img src="logo/NFPA_logo.png" height="80" width="80" title="National Fire Protection Association">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
